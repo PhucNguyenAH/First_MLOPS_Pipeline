@@ -163,5 +163,5 @@ def create_cifar10_pipeline(
     )
 
     # Start the pipeline
-    pipeline.start(queue="CIFAR10")
+    pipeline.start(queue="gitarth")
     print("CIFAR-10 pipeline initiated. Check ClearML for progress.")
