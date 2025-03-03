@@ -1,11 +1,11 @@
 import argparse
 import os
-
+os.environ["MPLBACKEND"] = "TkAgg"
 import numpy as np
 from clearml import Dataset
 from tensorflow.keras.datasets import cifar10
 
-os.environ["MPLBACKEND"] = "TkAgg"
+
 
 def save_numpy_arrays(data, labels, data_filename, labels_filename):
     import argparse
